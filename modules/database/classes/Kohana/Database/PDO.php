@@ -65,7 +65,6 @@ class Kohana_Database_PDO extends Database {
 		{
 			// Set the character set
 			$this->set_charset($this->_config['charset']);
-                        echo $this->_config['charset'];
 		}
 	}
 
